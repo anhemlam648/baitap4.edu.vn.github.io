@@ -1,0 +1,50 @@
+/* Tùy chỉnh màu nền và font chữ */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Tùy chỉnh phần header */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Tùy chỉnh các card sản phẩm */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Tùy chỉnh nút Add to Cart */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Tùy chỉnh footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

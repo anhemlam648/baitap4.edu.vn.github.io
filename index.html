@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page with CSS</title>
-    <!-- <link rel="stylesheet" href="/public/style.css"> -->
+    <title>Trang Web Bán Hàng</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1>Gumball</h1>
-        <hr>
-        <img src = "/public/image.jfif" style="width: 100px;">
-        <div class="thongtin">
-            <b>Ngày sinh: 2002</b>
+
+<div class="header text-center py-4">
+    <h1 class="text-white">Trang Web Bán Hàng</h1>
+</div>
+
+<div class="container">
+    <h2 class="text-center mt-5 mb-4">Welcome to our Online Store</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Tên Sản Phẩm 1</h5>
+                    <p class="card-text">Mô tả sản phẩm 1</p>
+                    <p class="card-text">Giá: 100.000 VND</p>
+                    <a href="#" class="btn btn-primary">Thêm vào Giỏ hàng</a>
+                </div>
+            </div>
         </div>
-        <div class="thongtin">
-            <b>Họ tên: Nghĩa</b>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Tên Sản Phẩm 2</h5>
+                    <p class="card-text">Mô tả sản phẩm 2</p>
+                    <p class="card-text">Giá: 150.000 VND</p>
+                    <a href="#" class="btn btn-primary">Thêm vào Giỏ hàng</a>
+                </div>
+            </div>
         </div>
-        <div class="thongtin">
-            <a href="https://github.com/anhemlam648/tinhoc.edu.vn.github.io">Facebook</a>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Tên Sản Phẩm 3</h5>
+                    <p class="card-text">Mô tả sản phẩm 3</p>
+                    <p class="card-text">Giá: 200.000 VND</p>
+                    <a href="#" class="btn btn-primary">Thêm vào Giỏ hàng</a>
+                </div>
+            </div>
         </div>
+        <!-- Add more product cards here -->
     </div>
+</div>
+
+<div class="footer text-center py-3">
+    <p class="text-white mb-0">© 2024 Trang Web Bán Hàng. All rights reserved.</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
