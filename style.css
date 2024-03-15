@@ -1,13 +1,13 @@
 /* Tùy chỉnh màu nền và font chữ */
 body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Màu xám nhạt */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font chữ sans-serif */
 }
 
 /* Tùy chỉnh phần header */
 .header {
-    background-color: #343a40;
-    color: #fff;
+    background-color: #007bff; /* Màu xanh dương */
+    color: #fff; /* Màu chữ trắng */
     padding: 20px 0;
 }
 
@@ -15,36 +15,59 @@ body {
     margin: 0;
 }
 
-/* Tùy chỉnh các card sản phẩm */
 .card {
     margin-bottom: 20px;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Bo góc trên bên trái của hình ảnh */
+    border-top-right-radius: 10px; /* Bo góc trên bên phải của hình ảnh */
+}
+
+.card-body {
+    padding: 20px;
 }
 
 .card-title {
     font-weight: bold;
+    color: #333; /* Màu chữ đậm */
 }
 
 .card-text {
-    color: #6c757d;
+    color: #666; /* Màu chữ xám đậm */
 }
 
 /* Tùy chỉnh nút Add to Cart */
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #28a745; /* Màu xanh lá cây */
+    border-color: #28a745;
+    color: #fff; /* Màu chữ trắng */
+    width: 100%; /* Dãn nút để chiếm toàn bộ chiều rộng của card */
 }
 
 .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #218838; /* Màu xanh lá cây tối hơn */
+    border-color: #1e7e34; /* Màu viền tối hơn */
+}
+/* Phần style cho footer */
+.footer {
+    background-color: #007bff; /* Màu xanh nước biển */
+    color: #fff; /* Màu chữ trắng */
+    padding: 20px 0; /* Khoảng cách giữa nội dung và viền của footer */
+    position: relative; /* Đặt footer ở vị trí tương đối */
+    width: 100%;
 }
 
-/* Tùy chỉnh footer */
-.footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Phần style cho nội dung của footer */
+.footer-content {
+    text-align: center; /* Căn giữa nội dung của footer */
+}
+
+/* Phần style cho phần giỏ hàng */
+/* Đây là một ví dụ, bạn cần điều chỉnh các lớp hoặc phần tử cụ thể của giỏ hàng của bạn */
+.cart-container {
+    position: relative;
+    z-index: 999; /* Đảm bảo giỏ hàng hiển thị trên footer */
 }
